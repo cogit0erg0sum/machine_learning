@@ -73,5 +73,10 @@ docker ps
 # to stop container
 docker stop container_id 
 
+# for every file created
+python setup.py install
+
+
+
 
 
