@@ -45,10 +45,22 @@ git remote -v
 
 Heroku_email = harshitsrivastava19aug@gmail.com
 Heroku_api = 229b8af6-f42f-4f26-93ac-c27196a68474
-Heroku+app_name = ml-dep1
+Heroku+app_name = ml-dep1-app
 
 # Docker (https://docs.docker.com/go/guides/)
 docker --version
 docker --help
+
+# BUILD DOCKER IMAGE
+docker build -t <image_name>:,<tagname> .
+
+> Note : image name should be lower case
+
+# To list docker images
+docker images
+
+# Run docker image imageid
+docker run -p 5000:5000 -e PORT=5000 0a20a1a88978
+
 
 
