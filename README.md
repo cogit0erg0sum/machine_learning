@@ -62,5 +62,8 @@ docker images
 # Run docker image imageid
 docker run -p 5000:5000 -e PORT=5000 0a20a1a88978
 
+# docker ps to remove all containers
+docker rm -f $(docker ps -aq)
+
 
 
