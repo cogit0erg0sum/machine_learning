@@ -72,6 +72,7 @@ localhost:3000
 # to check running containers check these commands in cmd
 docker ps
 
+
 # to stop container
 docker stop container_id 
 
