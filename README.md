@@ -43,9 +43,7 @@ git remote -v
 
 # To set up CI/CD pipeline
 
-Heroku_email = 
-Heroku_api =
-Heroku+app_name = 
+
 
 # Docker (https://docs.docker.com/go/guides/)
 docker --version
