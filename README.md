@@ -44,7 +44,6 @@ git remote -v
 # To set up CI/CD pipeline
 
 
-
 # Docker (https://docs.docker.com/go/guides/)
 docker --version
 docker --help
