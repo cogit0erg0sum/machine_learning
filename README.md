@@ -43,9 +43,9 @@ git remote -v
 
 # To set up CI/CD pipeline
 
-Heroku_email = harshitsrivastava19aug@gmail.com
-Heroku_api = 229b8af6-f42f-4f26-93ac-c27196a68474
-Heroku+app_name = ml-dep1-app
+Heroku_email = 
+Heroku_api =
+Heroku+app_name = 
 
 # Docker (https://docs.docker.com/go/guides/)
 docker --version
