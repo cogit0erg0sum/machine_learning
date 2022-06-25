@@ -59,11 +59,15 @@ docker build -t <image_name>:,<tagname> .
 # To list docker images
 docker images
 
-# Run docker image imageid
-docker run -p 5000:5000 -e PORT=5000 0a20a1a88978
+# Run docker image imageid for mac and 5000 for windows
+docker run -p 3000:3000 -e PORT=3000 0a20a1a88978 
+
 
 # docker ps to remove all containers
 docker rm -f $(docker ps -aq)
+
+# app on local host 
+localhost:3000
 
 
 
