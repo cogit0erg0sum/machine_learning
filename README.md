@@ -7,6 +7,12 @@ First machine learning project
 3.  VS Code IDE
 4.  GIT CLI and Doc (https://git-scm.com/docs/user-manual)
 
+# check conda envs
+conda info --envs
+
+# activate envs 
+conda activate envs_name 
+
 
 # Creating conda environment
 conda create -p venv python = 3.9.12 -y
