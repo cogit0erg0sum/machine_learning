@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
 '''
@@ -17,13 +17,13 @@ def get_requirements_list():
 
 
     with open(requirement_file_name) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove("-e .")
 
 
 
 setup(
 name = "housing-predictor",
-version = '0.0.1',
+version = '0.0.2',
 author = "Harshit Srivastava",
 description = "This is the first ml project",
 packages = ["housing"],
