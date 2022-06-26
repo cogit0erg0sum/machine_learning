@@ -74,5 +74,8 @@ docker ps
 # to stop container
 docker stop container_id 
 
+# setup.py
+python setyup.py install 
+
 
 
