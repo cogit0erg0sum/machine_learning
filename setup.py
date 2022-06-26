@@ -6,7 +6,7 @@ You can declare variables here and pass in setup
 '''
 requirement_file_name = "requirements.txt"
 
-def get_requirements_list():
+def get_requirements_list()->List[str]:
     """
     DESCRIPTION : This function is going to return list of requirement
     mentioned in requirements.txt file
@@ -33,4 +33,8 @@ description = "This is the first ml project",
 packages = ["housing"],
 install_requires = get_requirements_list()
 )
+
+
+
+
 
