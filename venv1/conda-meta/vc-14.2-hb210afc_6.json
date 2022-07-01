@@ -1,0 +1,36 @@
+{
+  "build": "hb210afc_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vs2015_runtime >=14.28.29325"
+  ],
+  "extracted_package_dir": "C:\\Users\\i30509\\Anaconda3\\pkgs\\vc-14.2-hb210afc_6",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "vc-14.2-hb210afc_6.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\i30509\\Anaconda3\\pkgs\\vc-14.2-hb210afc_6",
+    "type": 1
+  },
+  "md5": "c2aecbc9b00ba6f352e27d3d61fd31fb",
+  "name": "vc",
+  "package_tarball_full_path": "C:\\Users\\i30509\\Anaconda3\\pkgs\\vc-14.2-hb210afc_6.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c6e7d2b9ceafe2cc302fb8fce1dfcc46b49c5333757424a34294bffdfb5569be",
+  "size": 13699,
+  "subdir": "win-64",
+  "timestamp": 1641832058226,
+  "track_features": "vc14",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/vc-14.2-hb210afc_6.tar.bz2",
+  "version": "14.2"
+}
