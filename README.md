@@ -77,5 +77,9 @@ docker stop container_id
 # setup.py
 python setyup.py install 
 
+# change version and reinstall setup.py
+
+
+
 
 
