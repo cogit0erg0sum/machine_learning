@@ -81,5 +81,7 @@ python setyup.py install
 
 
 
+pip install ipykernel
+
 
 
