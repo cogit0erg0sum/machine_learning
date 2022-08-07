@@ -18,19 +18,23 @@ class Configuration:
                  current_time_stamp:str = CURRENT_TIME_STAMP) -> None:
         
         try:
-            
-        
-            self.config_info = read_yaml_file(file_path = config_file_path)
+            self.config_info = read_yaml_file(file_path=config_file_path)
             self.training_pipeline_config = self.get_training_pipeline_config()
             self.time_stamp = current_time_stamp
         except Exception as e:
             raise HousingException(e,sys) from e
-        
-        pass
+    
+    
     
     
     def get_data_injestion_config(self) -> DataInjestionConfig:
-        pass
+        try:
+            self.config_info
+            data_injestion_config = DataInjestionConfig(
+                
+                        )
+        except Exception as e:
+            raise HousingException(e,sys) from e
     
     
     
