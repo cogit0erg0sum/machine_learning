@@ -11,7 +11,7 @@ CONFIG_FILE_NAME = "config_yaml"
 
 CONFIG_FILE_PATH = os.path.join(ROOT_DIR, CONFIG_DIR, CONFIG_FILE_NAME)
 
-CURRENT_TIME_STAMP = f"(datetime.now().strftime('%Y-%m-%d:%H-%M-%s))"
+CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d:%H-%M-%s')}"
 
 
 
@@ -25,7 +25,7 @@ TRAINING_PIPELINE_NAME_KEY = 'pipeline_name'
 ##data injestion related variable
 
 DATA_INJESTION_CONFIG_KEY = "data_injestion_config"
-DATA_INJESTION_ARTIFACT_DIR = "data_injestion"
+DATA_INJESTION_ARTIFACT_DIR = "data_injestion"  ###folder  created 
 DATA_INJESTION_DOWNLOAD_URL_KEY = "dataset_download_url"
 DATA_INJESTION_RAW_DATA_DIR_KEY = "raw_data_dir"
 DATA_INJESTION_TGZ_DOWNLOAD_DIR_KEY = "tgz_download_dir"

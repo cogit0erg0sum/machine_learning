@@ -29,10 +29,17 @@ class Configuration:
     
     def get_data_injestion_config(self) -> DataInjestionConfig:
         try:
-            self.config_info
+            data_injestion_info = self.config_info.config_info[DATA_INJESTION_CONFIG_KEY]
+            
+            dataset_download_url = data_injestion_info[DATA_INJESTION_DOWNLOAD_URL_KEY]
+            tgz_download_dir = 
+            ingested_train_data
+            injested_test_data
             data_injestion_config = DataInjestionConfig(
                 
-                        )
+            )
+                
+                        
         except Exception as e:
             raise HousingException(e,sys) from e
     
